@@ -12,7 +12,6 @@ import {
   FormLabel,
   FormMessage,
   FormField,
-  FormDescription,
 } from "../../../../../components/ui/form";
 
 import { Input } from "../../../../../components/ui/input";
@@ -57,11 +56,11 @@ export default function PostEditPage({ params }: PostEditPageProps) {
     },
   });
 
-  const handleSubmit = (data) => {
+  const handleSubmit = (data: any) => {
     toast({
-      title: 'Post has been updated succesffully',
-      description: `Updated by ${post?.author} on ${post?.date}`
-    })
+      title: "Post has been updated succesffully",
+      description: `Updated by ${post?.author} on ${post?.date}`,
+    });
   };
   return (
     <div>

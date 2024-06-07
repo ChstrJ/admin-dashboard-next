@@ -41,24 +41,6 @@ export default function Sidebar() {
               <Link href="/">Categories</Link>
             </CommandItem>
           </CommandGroup>
-          <CommandSeparator />
-          <CommandGroup heading="Settings">
-            <CommandItem>
-              <User className="mr-2 h-4 w-4" />
-              <span>Profile</span>
-              <CommandShortcut>↳K</CommandShortcut>
-            </CommandItem>
-            <CommandItem>
-              <CreditCard className="mr-2 h-4 w-4" />
-              <span>Profile</span>
-              <CommandShortcut>↳K</CommandShortcut>
-            </CommandItem>
-            <CommandItem>
-              <Settings className="mr-2 h-4 w-4" />
-              <span>Settings</span>
-              <CommandShortcut>↳K</CommandShortcut>
-            </CommandItem>
-          </CommandGroup>
         </CommandList>
       </Command>
     </div>
