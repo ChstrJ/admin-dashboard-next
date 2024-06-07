@@ -11,10 +11,8 @@ export default function AuthTabs() {
           <TabsTrigger value="register">Register</TabsTrigger>
         </TabsList>
         <TabsContent value="login">
-          <LoginForm/>
         </TabsContent>
         <TabsContent value="register">
-          <RegisterForm/>
         </TabsContent>
       </Tabs>
     </div>
