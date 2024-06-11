@@ -64,8 +64,8 @@ export default function RegisterForm({ params }: PostEditPageProps) {
     },
   });
 
-  const handleSubmit = (data) => {
-    router.push("/");
+  const handleSubmit = () => {
+    console.log('test')
   };
   return (
     <div>
@@ -146,7 +146,7 @@ export default function RegisterForm({ params }: PostEditPageProps) {
 
               <FormField
                 control={form.control}
-                name="confirm password"
+                name="confirmPassword"
                 render={({ field }) => (
                   <FormItem>
                     <FormLabel className="uppercase text-xs font-bold text-zinc-500 dark:text-white">
